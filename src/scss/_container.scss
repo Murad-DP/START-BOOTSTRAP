@@ -1,0 +1,59 @@
+.container {
+    width: 100%;
+    padding: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 745px;
+    
+    
+
+    .masthead-subheading {
+        font-style: italic;
+        line-height: 2.25rem;
+        margin-bottom: 2rem;
+        color: #fff;
+        font-weight: 600;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .masthead-texting {
+        width: 100%;
+        font-size: 4.5rem;
+        font-weight: 900;
+        line-height: 4.5rem;
+        margin-bottom: 4rem;
+        color: #fff;
+        font-weight: 800;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 64px;
+
+    }
+
+    .btn {
+        background-color: #ffc800;
+        border-radius: 8px;
+        width: 220px;
+        height: 70px;
+
+        
+            &:hover{
+                background-color:  #d9aa00;
+                transition: 0.3s ease;
+            }
+        
+        
+
+        a {
+            display: block;
+            padding: 24px;
+            font-weight: 600;
+            color: #fff;
+            font-size: 18px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    }
+}
